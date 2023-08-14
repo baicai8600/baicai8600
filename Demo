@@ -1,0 +1,7 @@
+ Demo.display( "CreateDb completed successfully" );
+
+        } catch( ULjException exc ) {
+            Demo.displayException( exc );
+        }
+    }
+}
