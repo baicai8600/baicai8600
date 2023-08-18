@@ -1,0 +1,13 @@
+ public void handleMsg() 
+  throws CDSEventServiceSubscriberException 
+  { 
+    try 
+    { 
+      // simply prints the message 
+      TextMessage txtMsg = (TextMessage) getMessage(); 
+      System.out.println(txtMsg.getText()); 
+    } 
+    catch (Exception ex) 
+    { 
+      ex.printStackTrace(); 
+    } 
